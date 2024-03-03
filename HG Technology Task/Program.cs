@@ -56,11 +56,11 @@ namespace HG_Technology_Task
                     replacement += replacement.Length > 0 ? "-" + secondWord : secondWord;
                 }
             }
-            if (number % previousVersionFirstNumber == 0)
+            if (previousVersionFirstNumber != 0 && number % previousVersionFirstNumber == 0)
             {
                 replacement += replacement.Length > 0 ? "-" + previousVersionFirstWord : previousVersionFirstWord;
             }
-            if (number % previousVersionSecondNumber == 0)
+            if (previousVersionFirstNumber != 0 && number % previousVersionSecondNumber == 0)
             {
                 replacement += replacement.Length > 0 ? "-" + previousVersionSecondWord : previousVersionSecondWord;
             }
