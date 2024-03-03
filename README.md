@@ -39,6 +39,6 @@ Adding user flexibility:
 - Implement the functionality to replace numbers divisible by the chosen divisor with the chosen word.
 
 Example:
-- User chooses divisor 2 and 6 and replacement word "even" and "tmp".
+- User chooses divisors 2, 6 and replacement word "even" and "tmp".
 - Input: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
 - Output: 1, even, 3, even, 5, even-tmp, 7, even, 9, even
