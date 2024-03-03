@@ -32,3 +32,13 @@ Modifying behavior for divisibility by 3 and 5:
 Example:
 - Input: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 60, 105, 420
 - Output: 1, 2, dog, muzz, cat, dog, guzz, muzz, dog, cat, 11, fizz-muzz, 13, guzz, good-boy, good-boy-muzz, good-boy-guzz, good-boy-muzz-guzz
+
+## Task 4 (Additional)
+Adding user flexibility:
+- Allow users to choose the divisor and the replacement word.
+- Implement the functionality to replace numbers divisible by the chosen divisor with the chosen word.
+
+Example:
+- User chooses divisor 2 and 6 and replacement word "even" and "tmp".
+- Input: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+- Output: 1, even, 3, even, 5, even-tmp, 7, even, 9, even
